@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  justify-content:  center;
+}
+
+body{
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+  margin-right: 500;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container {
+  margin: 0 auto;
+  width: auto;
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 15px;
+  border: 1px solid #FFFFFF;
+  justify-content: center;
+  box-sizing: border-box;
+  display: inline-block;
+border-radius: 12px 12px 0px 0px;
+}
+.container__text{
+  background-color: #FFFFFF;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 0px 0px 12px 12px;
+    color: #121723;
+}
+
+h3 {
+  background-color: #FFFFFF;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color:#121723;
+}
+
+p {
+  background-color: #FFFFFF;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+ font-weight: 400;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  color: #121723;
+}
+
+img {
+  width: 370px;
+}
+
+.card__text {
+  color: grey;
+}
+
+.header{
+  width:100%;
+}
+.headerContent{
+  margin: 0 auto; width: 960px;
+}
+
+.header_panel {
+  background-color: white;
+    width: auto;
+    height: 150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.logo__link {
+  width: 150px;
+  height: 50px;
+}
+
+.footer {
+  background-color: #121723;
+  width: auto;
+  height: 110px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  
+}
+
+.footer { 
+  background-color: #121723;
+    width: auto;
+    height: 30;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+  
+.footer-text { 
+  margin: auto;
+display: flex;
+  color: white; 
+
+} 
+.footer-img{
+  list-style: none;
+  margin: 0 auto;
+  background-color: #121723;
+  width: auto;
+  height: 50;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+
+body {
+  background-color: #F1F1F1;
+  ;
+}
+h5{
+  margin: 0 auto;
+  color: #A1A6B4;
+font-family: "Anonymous Pro";
+width: 184px;
+height: 16px;
+top: 105px;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+a{
+  color: #000;
+font-family: "Anonymous Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h6{
+  margin-right: 50;
+    color: var(--white, #FFF);
+    font-family: "Anonymous Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.link__elemen{
+  margin-right: 30px;
+  text-decoration: none;
+  background-color: #FFF;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  font-weight: 700;
+  gap: 25px;
+  flex-direction: row;
+  text-align: right;
+  list-style: none;
+}
+.link__element{
+  text-decoration: none;
+  background-color: #121723;
+  font-family:"Anonymous Pro";
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  font-weight: 700;
+  gap: 25px;
+  flex-direction: row;
+  text-align: right;
+ list-style: none;
+}
+ul{
+  list-style: none;
+}
+
+
